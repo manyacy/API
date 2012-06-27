@@ -2,6 +2,7 @@ api
 ===
 
 Data Validation API Resources
+===
 
 Welcome fellow validators. This is our public GitHub repository where you can find 
 all the latest Documentation, Code Samples, and other interesting resources. 
