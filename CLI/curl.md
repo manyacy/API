@@ -22,7 +22,8 @@ curl -H "apikey:[apikeyclient]" -X POST -d '{"settings":[],"emails":[{"email":"j
 * You can however as in our cli example pass upto 3 custom fields with the e-mail. 
 * They can be named anything you want and they simply follow the e-mail. 
 * "email":"john.doe@domain.com","custom_id":12,"custom_name":"John Doe","custom_address":"Test Street nr 12"
-* /
+*
+*/
 
 # Validating up to 500 e-mails in a list
 
