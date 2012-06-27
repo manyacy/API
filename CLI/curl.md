@@ -69,6 +69,7 @@ curl -H "apikey:[apikeyclient]" -H "Expect:" -X PUT --upload-file file.[format] 
 * the Location: http://dvapi.com/email/657518 is what tells you where you can retrieve the results of your validation request. 
 * If you are not seeing this full response when issuing a PUT or POST with curl make sure to put -v at the end of yoru 
 * curl command to turn on verbose. 
+* /
 
 # Retrieving results for a single e-mail
 
