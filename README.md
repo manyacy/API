@@ -16,6 +16,4 @@ P.S.
 If you have implemented our API and would like to submit code samples to help your fellow
 GitHubers' we would greatly appreciate it. 
 
-www.datavalidation.com/api
-
-support@datavalidation.com
+www.datavalidation.com/api  |  support@datavalidation.com
