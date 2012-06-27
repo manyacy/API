@@ -10,7 +10,7 @@ without writing a single line of code go to : http://datavalidation.com/apigo/
 Once you have done that stay tuned to our GitHub page for more developer resources. 
 
 P.S. 
-====
+=
 If you have implemented our API and would like to submit code samples to help your fellow
 GitHubers' we would greatly appreciate it. 
 
