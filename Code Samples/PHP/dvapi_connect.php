@@ -1,7 +1,7 @@
+<?php
 /* This is the main connection class
 Modify at your own risk. This class is required for 
-validate_test.php to funtion */
-<?php
+validate_script.php to funtion */
 class Dvapi_connect
 {
     private $apikey;
@@ -31,6 +31,9 @@ class Dvapi_connect
         if ((integer) $this->http_status == 201):
             preg_match('/Location:(.*?)\n/', $response, $matches);
             $this->location = trim(array_pop($matches));
+			if (strpos($this->location,"http://dvapi.com") === false):
+				$this->location = "http://dvapi.com".$this->location;
+			endif;
         endif;
         curl_close($c);
     }

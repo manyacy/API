@@ -3,7 +3,7 @@ require_once("dvapi_connect.php");
 
 $apikey = "[your_api_key]";
 $email = "[email_address@domain.com]";
-$format = "json";//csv,xml
+$format = "csv";//json,xml
 
 $validation = new Dvapi_connect($apikey);
 $validation->validateEmail($email);
